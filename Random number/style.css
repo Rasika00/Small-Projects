@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(142, 214, 35);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    text-align: center; 
+}
+
+.background{
+    background-color:white;
+    border-radius: 10%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#button{
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
